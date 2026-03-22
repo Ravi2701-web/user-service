@@ -16,6 +16,6 @@ spec:
       containers:
         - name: user-app-container
           image: 'ravindra12701/user-service:1.0.0-8'
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 9191
